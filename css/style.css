@@ -1,3 +1,31 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+ul,ol{list-style: none;}
+a{text-decoration: none;}
+
 .hidden{
   display: none;
+}
+
+.wrap{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #eeeeee70;
+  padding: 20px;
+  border-radius: 6px;
+  width: 380px;
+}
+.bg{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.btn-eraser{
+  border: 0;
+  background-color: transparent;
+  color: aliceblue;
+}
+.todo-check{
+  accent-color: #ddd;
 }
